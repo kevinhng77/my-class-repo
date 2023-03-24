@@ -87,6 +87,13 @@ footer {
   color: #fff;
 }
 
+a .resources{
+  display: none;
+}
+
+.resources:hover + a{
+  display: block;
+}
 /* TODO: Add styles to display and hide the resource links */
 
 @media screen and (max-width: 768px) {
